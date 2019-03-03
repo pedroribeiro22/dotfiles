@@ -454,9 +454,7 @@ mode "$mode_gaps_outer" {
 ###############################################################################
 
 # Autostart applications
-exec --no-startup-id albert
 exec --no-startup-id todoist
-exec --no-startup-id whatsapp-nativefier
 exec --no-startup-id copyq
 exec --no-startup-id volumeicon
 exec --no-startup-id redshift -l 41:-8 -t 5700:3600
