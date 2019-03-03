@@ -1,17 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
-# shellcheck source=distro.sh
-. ../distro.sh
-# shellcheck source=helpers.sh
-. ../helpers.sh
+echo "Installing Haskell"
+sudo pacman -Syu ghc ghc-libs ghc-static cabal-install
 
-echo_info "Installing haskell..."
-_install stack
-_install ghc
-_install ghc-libs
-_install ghc-static
-
-echo_info "Symling .ghci..."
 ln -sfT ~/.dotfiles/haskell/ghci ~/.ghci
-
-echo_done "Haskell configuration!"
