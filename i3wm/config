@@ -181,15 +181,15 @@ bindsym $mod+p exec killall polybar
 ###############################################################################
 
 # Workspace names
-set $ws1   "1: Code"
+set $ws1   "1: IntelliJ"
 set $ws2   "2: Terminal"
 set $ws3   "3: Chrome"
 set $ws4   "4: Slack"
 set $ws5   "5: Discord"
 set $ws6   "6: Todoist"
-set $ws7   "7:"
-set $ws8   "8:"
-set $ws9   "9:"
+set $ws7   "7:"
+set $ws8   "8:"
+set $ws9   "9:"
 set $ws10 "10: Spotify"
 
 # switch to workspace
@@ -229,15 +229,14 @@ bindsym $mod+Shift+9 move container to workspace $ws9;  workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws1
 
 # Open applications on specific workspaces
-assign [class="code-oss"]   $ws1
-# assign [class="Termite"] $ws2
+assign [class="jetbrains-idea"]   $ws1
 assign [class="Google-chrome"] $ws3
 assign [class="Slack"]   $ws4
 assign [class="discord"] $ws5
 assign [class="Todoist"] $ws6
-assign [class="whats-app-nativefier-d52542"] $ws7
 for_window [title="Spotify"] move to workspace $ws10
 for_window [title="Todoist"] move to workspace $ws6
+
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Calamares"] floating enable border normal
