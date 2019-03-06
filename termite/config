@@ -11,7 +11,7 @@ urgent_on_bell = true
 font = Hack Nerd Font, Regular 11
 crollback_lines = 1000
 earch_wrap = true
-cursor_blink = system
+ursor_blink = system
 cursor_shape = block
 browser = google-chrome-stable
 
