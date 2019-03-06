@@ -25,34 +25,34 @@ foreground_bold     = #EEFFFF
 cursor              = #EEFFFF
 cursor_foreground   = #212121
 background          = rgba(33, 33, 33)
-
-# 16 color space
+# neutral_red + bright_red
+color1 = #cc241d
+color9 = #fb4934
 
 # Black, Gray, Silver, White
 color0  = #212121
 color8  = #4A4A4A
 color7  = #EEFFFF
 color15 = #FFFFFF
+# neutral_yellow + bright_yellow
+color3 = #d79921
+color11 = #fabd2f
 
-# Red
-color1  = #F07178
-color9  = #F07178
+# neutral_blue + bright_blue
+color4 = #458588
+color12 = #83a598
 
-# Green
-color2  = #C3E88D
-color10 = #C3E88D
+# neutral_purple + bright_purple
+color5 = #b16286
+color13 = #d3869b
 
-# Yellow
-color3  = #FFCB6B
-color11 = #FFCB6B
+# neutral_aqua + faded_aqua
+color6 = #689d6a
+color14 = #8ec07c
 
-# Blue
-color4  = #82AAFF
-color12 = #82AAFF
-
-# Purple
-color5  = #C792EA
-color13 = #C792EA
+# light4 + light1
+color7 = #a89984
+color15 = #ebdbb2
 
 # Teal
 color6  = #89DDFF
@@ -65,3 +65,4 @@ color18 = #303030
 color19 = #353535
 color20 = #B2CCD6
 color21 = #EEFFFF
+
