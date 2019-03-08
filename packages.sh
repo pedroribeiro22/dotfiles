@@ -19,6 +19,7 @@ export PKG=(
   numlockx
   odt2txt
   okular
+  mupdf
   pandoc
   pandoc-citeproc
   pandoc-crossref
