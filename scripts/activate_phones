@@ -1,0 +1,8 @@
+#!/usr/bin/bluetoothctl --timeout
+
+power on
+agent on
+default-agent
+scan on
+pair 08:EB:ED:9F:34:BC
+connect 08:EB:ED:9F:34:BC
