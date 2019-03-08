@@ -29,6 +29,7 @@ set listchars+=nbsp:•
 
 
 " Theme
+let g:material_theme_style = 'dark'
 syntax enable
 colorscheme material
 " let g:gruvbox_contrast_dark = 'hard'
