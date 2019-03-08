@@ -12,6 +12,7 @@ export PKG=(
   htop
   img2txt
   lighttpd
+  lhs2tex
   lolcat
   lxappearance
   ncurses-term
