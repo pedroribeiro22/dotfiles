@@ -29,7 +29,6 @@ set listchars+=nbsp:•
 
 
 " Theme
-let g:material_theme_style = 'dark'
 syntax enable
 colorscheme material
 
