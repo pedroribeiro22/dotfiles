@@ -39,7 +39,7 @@ Plug 'w0rp/ale'
 " Plug 'neomake/neomake'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-syntastic/syntastic'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
@@ -93,7 +93,7 @@ Plug 'elixir-editors/vim-elixir'
 Plug 'carlosgaldino/elixir-snippets'
 
 " Go
-Plug 'zchee/deoplete-go', { 'do': 'make'}
+" Plug 'zchee/deoplete-go', { 'do': 'make'}
 
 " Haskell
 Plug 'eagletmt/neco-ghc'
@@ -136,7 +136,7 @@ call plug#end()
 
 """ deoplete
 " Enable deoplete on startup
-let g:deoplete#enable_at_startup = 1
+" let g:deoplete#enable_at_startup = 1
 
 """ Ale
 " Error and warning signs.
