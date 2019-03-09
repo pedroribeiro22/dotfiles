@@ -30,7 +30,7 @@ set listchars+=nbsp:•
 
 " Theme
 syntax enable
-colorscheme material
+colorscheme dracula
 
 " Fuzzy finder
 let g:fzf_colors = {
@@ -49,7 +49,7 @@ let g:fzf_colors = {
       \ }
 
 " vim-airline
-let g:airline_theme='material'
+let g:airline_theme='dracula'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
 let g:airline_powerline_fonts = 1
