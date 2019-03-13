@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 
 echo "Installing Haskell"
-sudo pacman -Syu ghc ghc-libs ghc-static cabal-install
+sudo apt-get install ghc 
+sudo apt-get install ghc-libs 
+sudo apt-get install ghc-static 
+sudo apt-get install cabal-install
 
 ln -sfT ~/.dotfiles/haskell/ghci ~/.ghci
