@@ -16,51 +16,51 @@ cursor_shape = block
 browser = google-chrome-stable
 
 [colors]
-# Base16 Material Lighter
+# Base16 Material
 # Author: Nate Peterson
 
-foreground          = #80CBC4
-foreground_bold     = #80CBC4
-cursor              = #80CBC4
-cursor_foreground   = #FAFAFA
-background          = rgba(250, 250, 250)
+foreground          = #EEFFFF
+foreground_bold     = #EEFFFF
+cursor              = #EEFFFF
+cursor_foreground   = #263238
+background          = rgba(38, 50, 56, 0.85)
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #FAFAFA
-color8  = #CCD7DA
-color7  = #80CBC4
+color0  = #263238
+color8  = #546E7A
+color7  = #EEFFFF
 color15 = #FFFFFF
 
 # Red
-color1  = #FF5370
-color9  = #FF5370
+color1  = #F07178
+color9  = #F07178
 
 # Green
-color2  = #91B859
-color10 = #91B859
+color2  = #C3E88D
+color10 = #C3E88D
 
 # Yellow
-color3  = #FFB62C
-color11 = #FFB62C
+color3  = #FFCB6B
+color11 = #FFCB6B
 
 # Blue
-color4  = #6182B8
-color12 = #6182B8
+color4  = #82AAFF
+color12 = #82AAFF
 
 # Purple
-color5  = #7C4DFF
-color13 = #7C4DFF
+color5  = #C792EA
+color13 = #C792EA
 
 # Teal
-color6  = #39ADB5
-color14 = #39ADB5
+color6  = #89DDFF
+color14 = #89DDFF
 
 # Extra colors
-color16 = #F76D47
-color17 = #E53935
-color18 = #E7EAEC
-color19 = #CCEAE7
-color20 = #8796B0
-color21 = #80CBC4
+color16 = #F78C6C
+color17 = #FF5370
+color18 = #2E3C43
+color19 = #314549
+color20 = #B2CCD6
+color21 = #EEFFFF
