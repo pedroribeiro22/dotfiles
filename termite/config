@@ -15,53 +15,52 @@ ursor_blink = system
 cursor_shape = block
 browser = google-chrome-stable
 
-
 [colors]
-# Base16 Dracula
-# Author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+# Base16 Material Lighter
+# Author: Nate Peterson
 
-foreground          = #e9e9f4
-foreground_bold     = #f1f2f8
-cursor              = #f1f2f8
-cursor_foreground   = #282936
-background          = rgba(40, 41, 54, 0.85)
+foreground          = #80CBC4
+foreground_bold     = #80CBC4
+cursor              = #80CBC4
+cursor_foreground   = #FAFAFA
+background          = rgba(250, 250, 250)
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #282936
-color8  = #4d4f68
-color7  = #e9e9f4
-color15 = #f7f7fb
+color0  = #FAFAFA
+color8  = #CCD7DA
+color7  = #80CBC4
+color15 = #FFFFFF
 
 # Red
-color1  = #ea51b2
-color9  = #ea51b2
+color1  = #FF5370
+color9  = #FF5370
 
 # Green
-color2  = #00f769
-color10 = #00f769
+color2  = #91B859
+color10 = #91B859
 
 # Yellow
-color3  = #ebff87
-color11 = #ebff87
+color3  = #FFB62C
+color11 = #FFB62C
 
 # Blue
-color4  = #62d6e8
-color12 = #62d6e8
+color4  = #6182B8
+color12 = #6182B8
 
 # Purple
-color5  = #b45bcf
-color13 = #b45bcf
+color5  = #7C4DFF
+color13 = #7C4DFF
 
 # Teal
-color6  = #a1efe4
-color14 = #a1efe4
+color6  = #39ADB5
+color14 = #39ADB5
 
 # Extra colors
-color16 = #b45bcf
-color17 = #00f769
-color18 = #3a3c4e
-color19 = #626483
-color20 = #62d6e8
-color21 = #f1f2f8
+color16 = #F76D47
+color17 = #E53935
+color18 = #E7EAEC
+color19 = #CCEAE7
+color20 = #8796B0
+color21 = #80CBC4
