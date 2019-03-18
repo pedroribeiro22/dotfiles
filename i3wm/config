@@ -187,7 +187,7 @@ set $ws3   "3: "
 set $ws4   "4: "
 set $ws5   "5: "
 set $ws6   "6: "
-set $ws7   "7: "
+set $ws7   "7: "
 set $ws8   "8: "
 set $ws9   "9: "
 set $ws10  "10: "
@@ -233,7 +233,8 @@ assign [class="jetbrains-idea"]   $ws1
 assign [class="Google-chrome"]    $ws3
 assign [class="Slack"]            $ws4
 assign [class="discord"]          $ws5
-assign [class="code-oss"] $ws6
+assign [class="code-oss"]         $ws6
+assign [class="Trello"]           $ws7
 for_window [title="Spotify"] move to workspace $ws10
 for_window [title="Todoist"] move to workspace $ws6
 
