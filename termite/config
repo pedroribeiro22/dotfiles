@@ -8,7 +8,7 @@ mouse_autohide = false
 allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
-font = DejaVu Sans Mono Nerd Font, Regular 11
+font = Hack Nerd Font, Regular 12
 crollback_lines = 1000
 earch_wrap = true
 ursor_blink = system
@@ -23,7 +23,7 @@ foreground          = #EEFFFF
 foreground_bold     = #EEFFFF
 cursor              = #EEFFFF
 cursor_foreground   = #263238
-background          = rgba(38, 50, 56, 0.8)
+background          = rgba(38, 50, 56)
 
 # 16 color space
 
