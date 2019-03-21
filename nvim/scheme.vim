@@ -17,7 +17,6 @@ set number relativenumber " set hybrid line numbers
 set showmatch             " set show matching parenthesis
 set colorcolumn=80
 set cursorline            " underline the current line, for quick orientation
-
 "set cursorcolumn
 
 " Highlight whitespaces
@@ -30,6 +29,7 @@ set listchars+=nbsp:•
 
 " Theme
 syntax enable
+let g:material_theme_style='dark'
 colorscheme material
 
 " Fuzzy finder
@@ -91,9 +91,9 @@ let g:indentLine_faster = 1
 let g:indentLine_char = '┆'
 
 " Transparency settings
-highlight Normal guibg=none
-highlight NonText guibg=none
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
-au ColorScheme * hi Normal ctermbg=none guibg=none
-au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
+" highlight Normal guibg=none
+" highlight NonText guibg=none
+" highlight Normal ctermbg=none
+" highlight NonText ctermbg=none
+" au ColorScheme * hi Normal ctermbg=none guibg=none
+" au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
