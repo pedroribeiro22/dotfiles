@@ -16,20 +16,20 @@ cursor_shape = block
 browser = google-chrome-stable
 
 [colors]
-# Base16 Material
+# Base16 Material Darker
 # Author: Nate Peterson
 
 foreground          = #EEFFFF
 foreground_bold     = #EEFFFF
 cursor              = #EEFFFF
-cursor_foreground   = #263238
-background          = rgba(38, 50, 56)
+cursor_foreground   = #212121
+background          = rgba(33, 33, 33)
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #263238
-color8  = #546E7A
+color0  = #212121
+color8  = #4A4A4A
 color7  = #EEFFFF
 color15 = #FFFFFF
 
@@ -60,7 +60,7 @@ color14 = #89DDFF
 # Extra colors
 color16 = #F78C6C
 color17 = #FF5370
-color18 = #2E3C43
-color19 = #314549
+color18 = #303030
+color19 = #353535
 color20 = #B2CCD6
 color21 = #EEFFFF
