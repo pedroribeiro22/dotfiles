@@ -16,8 +16,9 @@ set showmode              " always show what mode we're currently editing in
 set number relativenumber " set hybrid line numbers
 set showmatch             " set show matching parenthesis
 set colorcolumn=80
-set cursorline            " underline the current line, for quick orientation
+" set cursorline            " underline the current line, for quick orientation
 "set cursorcolumn
+hiclear CursorLine
 
 " Highlight whitespaces
 set list
