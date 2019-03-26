@@ -18,8 +18,9 @@ set showmatch             " set show matching parenthesis
 set colorcolumn=80
 " set cursorline            " underline the current line, for quick orientation
 "set cursorcolumn
-hiclear CursorLine
-
+" set cursorline
+hi clear CursorLine
+hi CursorLine gui=underline cterm=underline
 " Highlight whitespaces
 set list
 set listchars=""
