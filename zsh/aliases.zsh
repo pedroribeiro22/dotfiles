@@ -24,7 +24,7 @@ alias r="ranger"
 alias p="sudo pacman"
 alias y="yaourt"
 alias :q="exit"
-alias cat="bat"
+alias cat="bat --theme=OneHalfDark"
 
 alias o=open
 
