@@ -25,6 +25,7 @@ alias p="sudo pacman"
 alias y="yaourt"
 alias :q="exit"
 alias cat="bat --theme=OneHalfDark"
+alias ls="exa"
 
 alias o=open
 
