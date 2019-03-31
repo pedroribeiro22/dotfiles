@@ -31,8 +31,8 @@ set listchars+=nbsp:•
 
 " Theme
 syntax enable
-let g:material_theme_style='dark'
-colorscheme material
+" let g:material_theme_style='dark'
+colorscheme onedark
 
 " Fuzzy finder
 let g:fzf_colors = {
