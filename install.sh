@@ -26,7 +26,7 @@ do
   sh "$dir"/install.sh
 done
 
-sudo curl -o /usr/share/backgrounds/wallpaper.jpg "https://external-preview.redd.it/DmeNKK784pSPFsHhTRLZpD3P_MDuHz73G7QXu2DxqCw.png?auto=webp&s=a8997d2833ee45995dec08f521e6c0fdbd21af51"
+sudo curl -o /usr/share/backgrounds/wallpaper.jpg "https://external-preview.redd.it/5_Kr7ETD5QJqLAjNmDWOD5UQ1YT6tu7ARD5QW1fMRbo.jpg?auto=webp&s=b9d529c0a9f036631902d0cb17a27755e00ef71a"
 
 cd "$SAVED_DIR"
 

@@ -63,7 +63,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Escape exec --no-startup-id betterlockscreen -l dim
 
 # wallpaper
-exec_always --no-startup-id feh --bg-fill /usr/share/backgrounds/wallpaper.png
+exec_always --no-startup-id feh --bg-fill /usr/share/backgrounds/wallpaper.jpg
 
 # start program launcher
 #bindsym $mod+d exec ---no-startup-id rofi -show run
