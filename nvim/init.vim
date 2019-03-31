@@ -12,5 +12,4 @@ source ~/.dotfiles/nvim/maps.vim
 source ~/.dotfiles/nvim/scheme.vim
 
 
-hi clear CursorLine
-hi CursorLine gui=underline cterm=underline
+
