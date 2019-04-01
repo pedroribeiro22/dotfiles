@@ -189,10 +189,10 @@ bindsym $mod+p exec killall polybar
 set $ws1   "1: Java"
 set $ws2   "2:  Terminal"
 set $ws3   "3:  Chrome"
-set $ws4   "4:  Slack"
+set $ws4   "4: Franz"
 set $ws5   "5:  Discord"
 set $ws6   "6:  Code"
-set $ws7   "7:  Trello"
+set $ws7   "7: "
 set $ws8   "8: "
 set $ws9   "9: "
 set $ws10  "10:  Spotify"
@@ -236,12 +236,10 @@ bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws1
 # Open applications on specific workspaces
 assign [class="jetbrains-idea"]   $ws1
 assign [class="Google-chrome"]    $ws3
-assign [class="Slack"]            $ws4
+assign [class="Franz"]            $ws4
 assign [class="discord"]          $ws5
 assign [class="code-oss"]         $ws6
-assign [class="Trello"]           $ws7
 for_window [title="Spotify"] move to workspace $ws10
-for_window [title="Todoist"] move to workspace $ws6
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
