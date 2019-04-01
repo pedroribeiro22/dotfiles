@@ -93,9 +93,5 @@ let g:indentLine_faster = 1
 let g:indentLine_char = '┆'
 
 " Transparency settings
-" highlight Normal guibg=none
-" highlight NonText guibg=none
-" highlight Normal ctermbg=none
-" highlight NonText ctermbg=none
-" au ColorScheme * hi Normal ctermbg=none guibg=none
-" au ColorScheme myspecialcolors hi Normal ctermbg=red guibg=red
+highlight Normal guibg=none
+highlight NonText guibg=none
