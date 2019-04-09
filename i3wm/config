@@ -234,7 +234,9 @@ bindsym $mod+Shift+9 move container to workspace $ws9;  workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws1
 
 # Open applications on specific workspaces
-assign [class="jetbrains-idea"]   $ws1
+assign [class="mupdf"]            $ws1
+assign [class="okular"]           $ws1
+assign [class="zathura"]          $ws1
 assign [class="Google-chrome"]    $ws3
 assign [class="Slack"]            $ws4
 assign [class="discord"]          $ws5
