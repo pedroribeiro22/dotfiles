@@ -186,7 +186,7 @@ bindsym $mod+p exec killall polybar
 ###############################################################################
 
 # Workspace names
-set $ws1   "1: Java"
+set $ws1   "1: Reading"
 set $ws2   "2: Terminal"
 set $ws3   "3: Chrome"
 set $ws4   "4: Slack"
