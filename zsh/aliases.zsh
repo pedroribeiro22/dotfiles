@@ -8,7 +8,7 @@ alias see="firefox"
 
 # UNIVERSITY RELATED
 alias poo="cd $HOME/Code/csdegree/2nd\ year/2nd\ Semester/Programação\ Orientada\ a\ Objetos"
-alias cp="cd $HOME/Code/csdegree/2nd\ year/2nd\ Semester/Cálculo\ de\ Programas"
+# alias cp="cd $HOME/Code/csdegree/2nd\ year/2nd\ Semester/Cálculo\ de\ Programas"
 alias so="cd $HOME/Code/csdegree/2nd\ year/2nd\ Semester/Sistemas\ Operativos"
 alias li="cd $HOME/Code/csdegree/2nd\ year/2nd\ Semester/LI3"
 alias eletro="cd $HOME/Code/csdegree/2nd\ year/2nd\ Semester/Eletromagnetismo"
