@@ -21,6 +21,9 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 " Games
 Plug 'vim-scripts/TeTrIs.vim'
 
+" Colorschemes
+Plug 'phanviet/vim-monokai-pro'
+
 " IDE like plugins
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-endwise'
