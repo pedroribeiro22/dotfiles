@@ -472,6 +472,7 @@ exec chmod go-w ~/.dotfiles/haskell/ghci
 exec_always --no-startup-id ~/.spells/polybarlaunch.sh
 
 exec_always --no-startup-id ~/.dotfiles/i3wm/monitor.sh
+exec_always --no-startup-id ~/.dynamicx/dynamicx
 exec_always --no-startup-id setxkbmap pt
 
 # Keyboard Remaps
