@@ -189,7 +189,7 @@ bindsym $mod+p exec killall polybar
 set $ws1   "1: Vim"
 set $ws2   "2: Terminal"
 set $ws3   "3: Chrome"
-set $ws4   "4: Slack"
+set $ws4   "4: Messaging"
 set $ws5   "5: Discord"
 set $ws6   "6: Code"
 set $ws7   "7: "
