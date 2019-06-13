@@ -459,7 +459,6 @@ mode "$mode_gaps_outer" {
 ###############################################################################
 
 # Autostart applications
-exec_always --no-startup-id sh ~/.spells/chooseWallpaper.sh
 exec --no-startup-id copyq
 exec --no-startup-id volumeicon
 exec --no-startup-id redshift -l 41:-8 -t 5700:3600
@@ -473,7 +472,6 @@ exec_always --no-startup-id ~/.spells/polybarlaunch.sh
 
 exec_always --no-startup-id ~/.dotfiles/i3wm/monitor.sh
 exec_always --no-startup-id ~/.dynamicx/dynamicx
-exec_always --no-startup-id setxkbmap pt
 
 # Keyboard Remaps
 exec --no-startup-id numlockx on
