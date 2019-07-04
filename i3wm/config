@@ -186,7 +186,7 @@ bindsym $mod+p exec killall polybar
 ###############################################################################
 
 # Workspace names
-set $ws1   "1: Vim"
+set $ws1   "1: IDE's"
 set $ws2   "2: Terminal"
 set $ws3   "3: Chrome"
 set $ws4   "4: Slack"
@@ -234,13 +234,13 @@ bindsym $mod+Shift+9 move container to workspace $ws9;  workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10; workspace $ws1
 
 # Open applications on specific workspaces
-assign [class="mupdf"]            $ws1
-assign [class="okular"]           $ws1
-assign [class="zathura"]          $ws1
-assign [class="Google-chrome"]    $ws3
-assign [class="Slack"]            $ws4
-assign [class="discord"]          $ws5
-assign [class="code-oss"]         $ws6
+assign [class="jetbrains-pycharm"]      $ws1
+assign [class="jetbrains-idea"]         $ws1
+assign [class="sun-awt-X11-XFramePeer"] $ws1
+assign [class="Google-chrome"]          $ws3
+assign [class="Slack"]                  $ws4
+assign [class="discord"]                $ws5
+assign [class="code-oss"]               $ws6
 for_window [title="Spotify"] move to workspace $ws10
 
 # Open specific applications in floating mode
