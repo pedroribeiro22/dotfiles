@@ -8,7 +8,7 @@ function ActivateHDMI1 {
     echo "Switching to HDMI1"
     xrandr --output HDMI1 --mode 1920x1080 --dpi 160 --output eDP1 --off
     MONITOR=HDMI1
-    setxkbmap gb
+    setxkbmap pt
 }
 
 # Function that reacts whenever the HDMI1 cable gets unplugged
