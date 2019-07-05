@@ -6,7 +6,7 @@ MONITOR=eDP1
 # Function that reacts whenever the HDMI1 cable gets plugged
 function ActivateHDMI1 {
     echo "Switching to HDMI1"
-    xrandr --output HDMI1 --mode 1920x1080 --dpi 160 --output eDP1 --off
+    xrandr --output HDMI1 --mode 1920x1080 --dpi 160 --output eDP-1 --off
     MONITOR=HDMI1
     setxkbmap pt
 }
@@ -14,7 +14,7 @@ function ActivateHDMI1 {
 # Function that reacts whenever the HDMI1 cable gets unplugged
 function DeactivateHDMI1 {
     echo "Switching to eDP1"
-    xrandr --output HDMI1 --off --output eDP1 --auto
+    xrandr --output HDMI1 --off --output eDP-1 --auto
     MONITOR=eDP1
     setxkbmap pt
 }
