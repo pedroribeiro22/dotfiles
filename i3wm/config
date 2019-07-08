@@ -63,7 +63,6 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Escape exec --no-startup-id betterlockscreen -l dim
 
 # wallpaper
-exec_always --no-startup-id feh --bg-fill /usr/share/backgrounds/wallpaper.jpg
 
 # start program launcher
 #bindsym $mod+d exec ---no-startup-id rofi -show run
@@ -469,6 +468,7 @@ exec --no-startup-id xautolock -time 10 -locker betterlockscreen -l dim
 exec chmod go-w ~/.dotfiles/haskell/ghci
 
 exec_always --no-startup-id ~/.spells/polybarlaunch.sh
+exec_always --no-startup-id ~/.local/bin/dynamicx
 
 exec_always --no-startup-id ~/.dotfiles/i3wm/monitor.sh
 
