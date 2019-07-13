@@ -8,7 +8,7 @@
 
 ```shell
 git clone https://github.com/pedroribeiro22/dotfiles ~/.dotfiles
-git clone https://github.com/nelsonmestevao/spells   ~/.spells
+git clone https://github.com/pedroribeiro22/spells   ~/.spells
 cd ~/.dotfiles
 sh install.sh
 ```
