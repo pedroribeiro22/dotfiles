@@ -28,3 +28,9 @@ function weather() {
   curl 'wttr.in/~'${1:-Braga}'+'$2'?'$3 ;
 }
 
+function createrep() {
+  cd "/home/pedro/Code/createrep/";
+  sh createrep.sh $1;
+  cd "$ENV";
+}
+
