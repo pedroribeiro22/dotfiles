@@ -29,8 +29,9 @@ function weather() {
 }
 
 function createrep() {
-  cd "/home/pedro/Code/createrep/";
+  INITIAL=$(pwd);
+  cd "/home/pedro/Desktop/Code/createrep/";
   sh createrep.sh $1;
-  cd "$ENV";
+  cd "$INITIAL";
 }
 
