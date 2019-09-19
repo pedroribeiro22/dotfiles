@@ -1,20 +1,16 @@
 #!/bin/bash
 
 export PKG=(
-  acpi
   catdoc
   catppt
-  curl
   diffpdf
   dunst
-  exuberant-ctags
   feh
   htop
   img2txt
   lighttpd
   lhs2tex
   lolcat
-  lxappearance
   ncurses-term
   neofetch
   numlockx
@@ -28,8 +24,6 @@ export PKG=(
   rofi
   screenkey
   terminology
-  tree
-  wget
   xbacklight
   xcape
   xclip
@@ -41,7 +35,7 @@ export AUR=(
   betterlockscreen
   copyq
   diff-so-fancy-git
-  google-chrome-stable
+  firefox
   neovim
   nerd-fonts-complete
   playerctl
