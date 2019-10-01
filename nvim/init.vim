@@ -11,5 +11,8 @@ source ~/.dotfiles/nvim/functions.vim
 source ~/.dotfiles/nvim/maps.vim
 source ~/.dotfiles/nvim/scheme.vim
 
+if (has('termguicolors'))
+  set termguicolors
+endif
 
 

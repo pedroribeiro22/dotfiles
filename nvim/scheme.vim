@@ -28,7 +28,7 @@ set listchars+=nbsp:•
 
 " Theme
 syntax enable
-colorscheme gruvbox
+colorscheme onedark
 
 " Fuzzy finder
 let g:fzf_colors = {
@@ -47,7 +47,7 @@ let g:fzf_colors = {
       \ }
 
 " vim-airline
-let g:airline_theme='gruvbox'
+" let g:airline_theme='material'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
 let g:airline_powerline_fonts = 1
@@ -89,5 +89,5 @@ let g:indentLine_faster = 1
 let g:indentLine_char = '┆'
 
 " Transparency settings
-" highlight Normal guibg=none
-" highlight NonText guibg=none
+highlight Normal guibg=none
+highlight NonText guibg=none
