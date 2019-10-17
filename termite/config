@@ -8,59 +8,52 @@ mouse_autohide = false
 allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
-font = DejaVu Sans Mono Nerd Font, Regular 11
+font = Roboto Mono Nerd Font, Regular 11
 crollback_lines = 1000
 earch_wrap = true
 ursor_blink = system
 cursor_shape = block
 browser = google-chrome-stable
 
+
 [colors]
-# Base16 OneDark
-# Author: Lalit Magant (http://github.com/tilal6991)
 
-foreground          = #abb2bf
-foreground_bold     = #b6bdca
-cursor              = #b6bdca
-cursor_foreground   = #282c34
-background          = rgba(40, 44, 52, 0.92)
+# special
+foreground        = #c5c8c6
+foreground_bold   = #c5c8c6
+cursor            = #c5c8c6
+cursor_foreground = #1d1f21
+background        = rgba(29, 31, 33, 0.8)
 
-# 16 color space
+# black
+color0  = #1d1f21
+color8  = #969896
 
-# Black, Gray, Silver, White
-color0  = #282c34
-color8  = #545862
-color7  = #abb2bf
-color15 = #c8ccd4
+# red
+color1  = #cc6666
+color9  = #cc6666
 
-# Red
-color1  = #e06c75
-color9  = #e06c75
+# green
+color2  = #b5bd68
+color10 = #b5bd68
 
-# Green
-color2  = #98c379
-color10 = #98c379
+# yellow
+color3  = #f0c674
+color11 = #f0c674
 
-# Yellow
-color3  = #e5c07b
-color11 = #e5c07b
+# blue
+color4  = #81a2be
+color12 = #81a2be
 
-# Blue
-color4  = #61afef
-color12 = #61afef
+# magenta
+color5  = #b294bb
+color13 = #b294bb
 
-# Purple
-color5  = #c678dd
-color13 = #c678dd
+# cyan
+color6  = #8abeb7
+color14 = #8abeb7
 
-# Teal
-color6  = #56b6c2
-color14 = #56b6c2
+# white
+color7  = #c5c8c6
+color15 = #ffffff
 
-# Extra colors
-color16 = #d19a66
-color17 = #be5046
-color18 = #353b45
-color19 = #3e4451
-color20 = #565c64
-color21 = #b6bdca
