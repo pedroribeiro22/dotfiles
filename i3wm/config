@@ -1,5 +1,5 @@
 # i3 config file (v4)
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+# Please see http://i3wm.org/docs/userguide.html for a complete refemence!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
@@ -40,7 +40,7 @@ bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart du
 bindsym $mod+Ctrl+x  --release exec --no-startup-id xkill
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec termite -e tmux
 
 # start a terminal with tmux
 bindsym $mod+Shift+Return exec termite -e 'tmux'
