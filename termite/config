@@ -8,7 +8,7 @@ mouse_autohide = false
 allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
-font = Hack Nerd Font, Regular 11
+font = DejaVu Sans Mono Nerd Font, Regular 11
 crollback_lines = 1000
 earch_wrap = true
 ursor_blink = system
@@ -16,44 +16,47 @@ cursor_shape = block
 browser = google-chrome-stable
 
 
+# Dracula theme for termite
+# https://github.com/dracula/termite
+# Copyright 2013-present, All rights reserved
+# Code licensed under the MIT license
+
 [colors]
 
 # special
-foreground        = #c5c8c6
-foreground_bold   = #c5c8c6
-cursor            = #c5c8c6
-cursor_foreground = #1d1f21
-background        = rgba(29, 31, 33, 0.8)
+foreground      = #f8f8f2
+foreground_bold = #f8f8f2
+cursor          = #f8f8f2
+background      = #282a36
 
 # black
-color0  = #1d1f21
-color8  = #969896
+color0  = #000000
+color8  = #4d4d4d
 
 # red
-color1  = #cc6666
-color9  = #cc6666
+color1  = #ff5555
+color9  = #ff6e67
 
 # green
-color2  = #b5bd68
-color10 = #b5bd68
+color2  = #50fa7b
+color10 = #5af78e
 
 # yellow
-color3  = #f0c674
-color11 = #f0c674
+color3  = #f1fa8c
+color11 = #f4f99d
 
 # blue
-color4  = #81a2be
-color12 = #81a2be
+color4  = #bd93f9
+color12 = #caa9fa
 
 # magenta
-color5  = #b294bb
-color13 = #b294bb
+color5  = #ff79c6
+color13 = #ff92d0
 
 # cyan
-color6  = #8abeb7
-color14 = #8abeb7
+color6  = #8be9fd
+color14 = #9aedfe
 
 # white
-color7  = #c5c8c6
-color15 = #ffffff
-
+color7  = #bfbfbf
+color15 = #e6e6e6
