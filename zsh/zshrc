@@ -17,6 +17,9 @@ source $DOTFILES/asdf/asdf.init
 source $DOTFILES/haskell/haskell.init
 # . $HOME/.spells/z.sh
 
+# direnv
+eval "$(direnv hook zsh)"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # start typing + [Up-Arrow] - fuzzy find history forward
