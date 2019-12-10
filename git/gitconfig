@@ -43,10 +43,10 @@
   binary = true
   cachetextconv = true
   textconv = odt2txt
-[diff "word"]
-  binary = true
-  cachetextconv = true
-  textconv = catdoc
+; [diff "word"]
+;   binary = true
+;   cachetextconv = true
+;   textconv = catdoc
 [diff "xls"]
   binary = true
   cachetextconv = true
