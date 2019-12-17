@@ -31,7 +31,7 @@ bindsym $mod+e        exec pcmanfm
 bindsym $mod+i        exec manjaro-settings-manager
 bindsym $mod+Ctrl+b   exec terminal -e 'bmenu'
 bindsym $mod+F1       exec mupdf /usr/share/doc/manjaro/i3_help.pdf
-bindsym $mod+F2       exec google-chrome-stable
+bindsym $mod+F2       exec firefox-developer-edition
 bindsym $mod+F3       exec ranger
 bindsym $mod+F5       exec terminal -e 'mocp'
 bindsym $mod+Ctrl+t   exec compton -b
@@ -74,9 +74,6 @@ bindsym $mod+d exec "rofi -modi window,drun,run -show drun -sidebar-mode -termin
 bindsym $mod+z exec --no-startup-id morc_menu
 
 # Printscreen
-bindsym Print                      exec --no-startup-id i3-scrot
-bindsym $mod+Print       --release exec --no-startup-id i3-scrot -w
-bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 
 # Pulse Audio controls
 # bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -404,7 +401,7 @@ set_from_resource $term_color15    color15
 ###############################################################################
 
 # Set inner/outer gaps
-gaps inner 5
+gaps inner 8
 gaps outer 5
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
@@ -472,6 +469,11 @@ exec_always --no-startup-id ~/.spells/polybarlaunch.sh
 exec_always --no-startup-id ~/.local/bin/dynamicx
 
 exec_always --no-startup-id ~/.dotfiles/i3wm/monitor.sh
+
+# Printscreen
+bindsym Print                      exec --no-startup-id flameshot gui
+bindsym $mod+Print       --release exec --no-startup-id flameshot screen -c -p ~/Pictures/Screenshots
+bindsym $mod+Shift+Print --release exec --no-startup-id flameshot full -c -p ~/Pictures/Screenshots
 
 # Keyboard Remaps
 exec --no-startup-id numlockx on
