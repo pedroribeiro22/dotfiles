@@ -401,7 +401,7 @@ set_from_resource $term_color15    color15
 ###############################################################################
 
 # Set inner/outer gaps
-gaps inner 8
+gaps inner 5
 gaps outer 5
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
