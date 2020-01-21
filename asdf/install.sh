@@ -33,7 +33,10 @@ asdf plugin-add julia
 asdf plugin-add nodejs
 asdf plugin-add ruby
 asdf plugin-add rust
-asdf plugin-add java
+asdf plugin-add java https://github.com/skotchpine/asdf-java.git
+
+# import needed queries for node
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 echo_info "Update all plugins..."
 asdf plugin-update --all
