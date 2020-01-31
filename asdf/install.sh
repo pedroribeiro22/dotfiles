@@ -25,6 +25,9 @@ ln -sfT ~/.dotfiles/asdf/tool-versions ~/.tool-versions
 echo_info "Update asdf itself..."
 asdf update
 
+# import needed queries for node
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
 echo_info "Add asdf plugins..."
 asdf plugin-add R
 asdf plugin-add golang
@@ -35,8 +38,6 @@ asdf plugin-add ruby
 asdf plugin-add rust
 asdf plugin-add java https://github.com/skotchpine/asdf-java.git
 
-# import needed queries for node
-bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 echo_info "Update all plugins..."
 asdf plugin-update --all
