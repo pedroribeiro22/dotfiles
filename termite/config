@@ -8,7 +8,7 @@ mouse_autohide = false
 allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
-font = Hack Nerd Font, Regular 11
+font = Fura Code Nerd Font, Regular 11
 crollback_lines = 1000
 earch_wrap = true
 ursor_blink = system
@@ -23,7 +23,7 @@ foreground        = #c5c8c6
 foreground_bold   = #c5c8c6
 cursor            = #c5c8c6
 cursor_foreground = #1d1f21
-background        = rgba(29, 31, 33, 0.8)
+background        = rgba(29, 31, 33, 0.97)
 
 # black
 color0  = #1d1f21
