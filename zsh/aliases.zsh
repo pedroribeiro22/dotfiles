@@ -20,3 +20,7 @@ alias o=open
 alias bsc=backup
 alias pls=please
 
+# NVIM
+alias vim=nvim
+alias vi=nvim
+
