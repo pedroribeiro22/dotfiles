@@ -18,14 +18,10 @@ alias ptkeyboard="setxkbmap -layout pt"
 alias gbkeyboard="setxkbmap -layout gb"
 
 # TEXT EDITING RELATED
-alias vi="vim"
-alias vim="nvim"
 alias r="ranger"
 alias p="sudo pacman"
 alias y="yaourt"
 alias :q="exit"
-alias cat="bat --theme=OneHalfDark"
-alias ls="exa"
 
 alias o=open
 
