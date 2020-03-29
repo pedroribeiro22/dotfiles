@@ -17,13 +17,7 @@ alias :q="exit"
 
 alias o=open
 
-alias cat="bat --theme=OneHalfDark"
-alias ls="exa"
-
 alias bsc=backup
 alias pls=please
 
-# NVIM
-alias vim=nvim
-alias vi=nvim
 
