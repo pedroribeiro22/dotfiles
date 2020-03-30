@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo systemctl start docker
 # MySQL
 sudo mkdir -p /data/mysql/csv
 sudo docker run -p 3306:3306 --name docker-mysql -e MYSQL_ROOT_PASSWORD=dockermysql --volume=/data/mysql:/var/lib/mysql -d mysql:8.0.18 --secure-file-priv=""
