@@ -14,6 +14,8 @@ alias gbkeyboard="setxkbmap -layout gb"
 # TEXT EDITING RELATED
 alias r="ranger"
 alias :q="exit"
+alias vim="nvim"
+alias vi="nvim"
 
 alias o=open
 
