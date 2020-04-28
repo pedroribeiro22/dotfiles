@@ -13,54 +13,54 @@ crollback_lines = 1000
 earch_wrap = true
 ursor_blink = system
 cursor_shape = block
-browser = google-chrome-stable
+browser = firefox-developer-edition
 
 [colors]
-# Base16 Google Dark
-# Author: Seth Wright (http://sethawright.com)
+# Base16 Material
+# Author: Nate Peterson
 
-foreground          = #c5c8c6
-foreground_bold     = #e0e0e0
-cursor              = #e0e0e0
-cursor_foreground   = #1d1f21
-background          = rgba(29, 31, 33)
+foreground          = #EEFFFF
+foreground_bold     = #EEFFFF
+cursor              = #EEFFFF
+cursor_foreground   = #263238
+background          = rgba(38, 50, 56, 0.9)
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #1d1f21
-color8  = #969896
-color7  = #c5c8c6
-color15 = #ffffff
+color0  = #263238
+color8  = #546E7A
+color7  = #EEFFFF
+color15 = #FFFFFF
 
 # Red
-color1  = #CC342B
-color9  = #CC342B
+color1  = #F07178
+color9  = #F07178
 
 # Green
-color2  = #198844
-color10 = #198844
+color2  = #C3E88D
+color10 = #C3E88D
 
 # Yellow
-color3  = #FBA922
-color11 = #FBA922
+color3  = #FFCB6B
+color11 = #FFCB6B
 
 # Blue
-color4  = #3971ED
-color12 = #3971ED
+color4  = #82AAFF
+color12 = #82AAFF
 
 # Purple
-color5  = #A36AC7
-color13 = #A36AC7
+color5  = #C792EA
+color13 = #C792EA
 
 # Teal
-color6  = #3971ED
-color14 = #3971ED
+color6  = #89DDFF
+color14 = #89DDFF
 
 # Extra colors
-color16 = #F96A38
-color17 = #3971ED
-color18 = #282a2e
-color19 = #373b41
-color20 = #b4b7b4
-color21 = #e0e0e0
+color16 = #F78C6C
+color17 = #FF5370
+color18 = #2E3C43
+color19 = #314549
+color20 = #B2CCD6
+color21 = #EEFFFF
