@@ -19,9 +19,7 @@ alias vi="nvim"
 
 alias o=open
 
-alias cat="bat"
 alias bsc=backup
-alias ls="exa --long --git --sort type"
 alias pls=please
 
 alias firefox=firefox-developer-edition
