@@ -184,7 +184,7 @@ bindsym $mod+p exec killall polybar
 # Workspace names
 set $ws1   "1:  JetBrains"
 set $ws2   "2:   Terminal"
-set $ws3   "3:   Chrome"
+set $ws3   "3: 龜 Firefox"
 set $ws4   "4:  Slack"
 set $ws5   "5:  Discord"
 set $ws6   "6:"
