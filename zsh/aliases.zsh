@@ -16,6 +16,9 @@ alias r="ranger"
 alias :q="exit"
 alias vim="nvim"
 alias vi="nvim"
+alias ls="exa --git --sort type"
+alias py="ipython"
+alias cat="bat --theme ansi-dark"
 
 alias o=open
 
