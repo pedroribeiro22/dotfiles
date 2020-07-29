@@ -16,52 +16,41 @@ cursor_shape = block
 browser = firefox-developer-edition
 
 [colors]
-# Base16 Google Dark
-# Author: Seth Wright (http://sethawright.com)
 
-foreground          = #c5c8c6
-foreground_bold     = #e0e0e0
-cursor              = #e0e0e0
-cursor_foreground   = #1d1f21
-background          = rgba(29, 31, 33)
+# special
+foreground      = #f8f8f2
+foreground_bold = #f8f8f2
+cursor          = #f8f8f2
+background      = rgba(40, 42, 54, 0.9)
 
-# 16 color space
+# black
+color0  = #000000
+color8  = #4d4d4d
 
-# Black, Gray, Silver, White
-color0  = #1d1f21
-color8  = #969896
-color7  = #c5c8c6
-color15 = #ffffff
+# red
+color1  = #ff5555
+color9  = #ff6e67
 
-# Red
-color1  = #CC342B
-color9  = #CC342B
+# green
+color2  = #50fa7b
+color10 = #5af78e
 
-# Green
-color2  = #198844
-color10 = #198844
+# yellow
+color3  = #f1fa8c
+color11 = #f4f99d
 
-# Yellow
-color3  = #FBA922
-color11 = #FBA922
+# blue
+color4  = #bd93f9
+color12 = #caa9fa
 
-# Blue
-color4  = #3971ED
-color12 = #3971ED
+# magenta
+color5  = #ff79c6
+color13 = #ff92d0
 
-# Purple
-color5  = #A36AC7
-color13 = #A36AC7
+# cyan
+color6  = #8be9fd
+color14 = #9aedfe
 
-# Teal
-color6  = #3971ED
-color14 = #3971ED
-
-# Extra colors
-color16 = #F96A38
-color17 = #3971ED
-color18 = #282a2e
-color19 = #373b41
-color20 = #b4b7b4
-color21 = #e0e0e0
-
+# white
+color7  = #bfbfbf
+color15 = #e6e6e6
