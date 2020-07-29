@@ -184,7 +184,7 @@ bindsym $mod+p exec killall polybar
 # Workspace names
 set $ws1   "1:  JetBrains"
 set $ws2   "2:   Terminal"
-set $ws3   "3: 龜 Firefox"
+set $ws3   "3:  Firefox"
 set $ws4   "4:  Slack"
 set $ws5   "5:  Discord"
 set $ws6   "6:"
@@ -401,8 +401,8 @@ set_from_resource $term_color15    color15
 ###############################################################################
 
 # Set inner/outer gaps
-gaps inner 10
-gaps outer 10
+gaps inner 5
+gaps outer 3
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
