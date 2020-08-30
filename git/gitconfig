@@ -4,7 +4,7 @@
 [github]
   user = pedroribeiro22
 [web]
-  browser = google-chrome-stable
+  browser = firefox-developer-edition
 [core]
   editor = nvim
   excludesfile = ~/.dotfiles/git/gitignore_global
