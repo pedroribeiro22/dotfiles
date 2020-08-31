@@ -1,0 +1,48 @@
+#!/usr/bin/env python
+
+import os
+
+downloads = os.path.join(os.path.expanduser("~"), "Downloads")
+os.chdir(downloads)
+
+def move_file(file, destination):
+  if not os.path.isdir(destination):
+    os.makedirs(destination)
+  if os.path.isfile(file):
+    os.rename(file, os.path.join(destination, file))
+
+for file in os.listdir(downloads):
+  if file.lower().endswith(
+    (".png", ".jpg", ".jpeg", ".gif", ".tif", ".tiff", ".bmp", ".svg", ".webp")
+  ):
+    move_file(file, "Pictures")
+  elif file.lower().endswith(
+    (".mp3", ".wav", ".mpa")
+  ):
+    move_file(file, "Music")
+  elif file.lower().endswith(
+    (".hs", ".sh", ".pl", ".py", ".rb", ".jl", ".r", ".js")
+  ):
+    move_file(file, "Scripts")
+  elif file.lower().endswith(
+    (".mp4", ".avi", ".mov", ".wmv", ".flv")
+  ):
+    move_file(file, "Videos")
+  elif file.lower().endswith(
+    (".pdf", ".xls", ".xlsx", ".doc", ".docx", ".ppt", ".pptx")
+  ):
+    move_file(file, "Documents")
+  elif file.lower().endswith(
+    (".fnt", ".fon", ".otf", ".ttf")
+  ):
+    move_file(file, "Fonts")
+  elif file.lower().endswith(
+    (".csv", ".dat", ".xml", ".vcf", ".json")
+  ):
+    move_file(file, "Data")
+  elif file.lower().endswith(
+    (".zip", ".tar", ".rar", ".7z")
+  ):
+    move_file(file, "Compressed")
+  else:
+    move_file(file, "Miscellaneous")

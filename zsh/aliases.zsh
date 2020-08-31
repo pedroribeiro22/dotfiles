@@ -11,12 +11,14 @@ alias prolog="/usr/local/sicstus4.3.0/bin/sicstus"
 alias ptkeyboard="setxkbmap -layout pt"
 alias gbkeyboard="setxkbmap -layout gb"
 
-# TEXT EDITING RELATED
+# TERMINAL RELATED
 alias r="ranger"
 alias :q="exit"
 alias vim="nvim"
 alias vi="nvim"
 alias py="ipython"
+alias cat="bat"
+alias ls="exa"
 
 alias o=open
 

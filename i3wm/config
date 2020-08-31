@@ -57,7 +57,7 @@ bindsym $mod+Shift+c reload
 exec xcompmgr -n
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r restart; exec "~/.dotfiles/utilities/downloads_tidier"
 
 # lock screen
 bindsym $mod+Escape exec --no-startup-id betterlockscreen -l dim
