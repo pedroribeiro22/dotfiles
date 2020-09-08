@@ -17,7 +17,8 @@ alias :q="exit"
 alias vim="nvim"
 alias vi="nvim"
 alias py="ipython"
-
+alias cat="bat"
+alias ls="exa --long --git --sort type"
 alias o=open
 
 alias bsc=backup
