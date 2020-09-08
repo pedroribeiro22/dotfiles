@@ -81,6 +81,7 @@ Plug 'rafi/awesome-vim-colorschemes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'rakr/vim-one'
 Plug 'kaicataldo/material.vim'
+Plug 'mhartington/oceanic-next'
 
 """ Languages
 

@@ -22,7 +22,7 @@ browser = firefox-developer-edition
 foreground      = #C0C5CE
 foreground_bold = #C0C5CE
 cursor          = #C0C5CE
-background      = rgba(27, 43, 52, 0.9)
+background      = rgba(27, 43, 52)
 
 # 16 color space
 color0  = #1B2B34
