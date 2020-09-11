@@ -11,8 +11,8 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #112F3E
-background-alt = #112F3E
+background = #F0000000
+background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #ccffffff
 foreground-alt = #555
@@ -43,11 +43,11 @@ height = 27
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-spacing = 0.2
-padding = 0
-module-margin = 0.5
+spacing = 2
+padding = 2
+module-margin = 2
 
-font-0 = SourceCodeProMedium:pixelsize=10;1
+font-0 = Hack NF Regular:pixelsize=10;1
 font-1 = Font Awesome 5 Free:pixelsize=10;0
 font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
 font-3 = Font Awesome 5 Brands:pixelsize=10;0
@@ -340,7 +340,7 @@ format = <label>
 ;   %percentage% (default) - total cpu load
 ;   %percentage-cores% - load percentage for each core
 ;   %percentage-core[1-9]% - load percentage for specific core
-label = 💻 %percentage%%
+label =  %percentage%%
 
 ramp-coreload-0 = ▁
 ramp-coreload-0-font = 2
@@ -532,13 +532,13 @@ format-volume = <ramp-volume> <label-volume>
 
 ; Available tokens:
 ;   %percentage% (default)
-label-muted = 📡 Muted
+label-muted =  Muted
 label-muted-foreground = #666
 
 ; Only applies if <ramp-volume> is used
-ramp-volume-0 = 📡
-ramp-volume-1 = 📡
-ramp-volume-2 = 📡
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
 
 bar-volume-width = 10
 bar-volume-foreground-0 = #55aa55
