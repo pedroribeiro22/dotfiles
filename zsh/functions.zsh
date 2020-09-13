@@ -34,10 +34,3 @@ function createrep() {
   sh createrep.sh $1;
   cd "$INITIAL";
 }
-
-function launchpolybar() {
-  killall -q polybar;
-  # while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done;
-  polybar &
-  echo "Polybar launched"
-}
