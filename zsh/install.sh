@@ -1,12 +1,15 @@
 #!/usr/bin/env sh
 
 echo "Installing ZSH with OH-MY-ZSH..."
-sudo pacman -Syu zsh --needed --noconfirm 
+sudo pacman -Syu zsh --needed --noconfirm
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 git clone https://github.com/bhilburn/powerlevel9k.git             "$HOME/.oh-my-zsh/custom/themes/powerlevel9k"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
 git clone https://github.com/zsh-users/zsh-autosuggestions         "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions"
+
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+sudo ln -sfT "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$HOME/.oh-my-zsh/themes/spaceship.zsh-theme"
 
 ln -sfT "$HOME/.dotfiles/zsh/zshrc"   "$HOME/.zshrc"
 
