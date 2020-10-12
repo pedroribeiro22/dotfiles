@@ -5,10 +5,11 @@
 "     | | | | | | |_ \ V /| | | | | | |
 "     |_|_| |_|_|\__(_)_/ |_|_| |_| |_|
 
+source ~/.dotfiles/nvim/maps.vim
 source ~/.dotfiles/nvim/plugins.vim
 source ~/.dotfiles/nvim/base.vim
 source ~/.dotfiles/nvim/functions.vim
-source ~/.dotfiles/nvim/maps.vim
+" source ~/.dotfiles/nvim/maps.vim
 source ~/.dotfiles/nvim/scheme.vim
 
 if (has('termguicolors'))

@@ -89,5 +89,5 @@ let g:indentLine_faster = 1
 let g:indentLine_char = '┆'
 
 " Transparency settings
-" highlight Normal guibg=none
-" highlight NonText guibg=none
+highlight Normal guibg=none
+highlight NonText guibg=none
