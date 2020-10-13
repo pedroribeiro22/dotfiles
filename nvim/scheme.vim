@@ -28,7 +28,7 @@ set listchars+=nbsp:•
 
 " Theme
 syntax enable
-colorscheme OceanicNext
+colorscheme onedark
 
 " Fuzzy finder
 let g:fzf_colors = {

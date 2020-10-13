@@ -66,7 +66,7 @@ bindsym $mod+Escape exec --no-startup-id betterlockscreen -l dim
 exec_always feh --bg-fill /usr/share/backgrounds/wallpaper.png
 # start program launcher
 #bindsym $mod+d exec ---no-startup-id rofi -show run
-bindsym $mod+d exec "rofi -modi window,drun,run -show drun -sidebar-mode -terminal termite -color-window '#000000, #000000, #000000' -color-normal '#000000, #b3e774, #000000, #b3e774, #000000' -color-active '#000000, #b3e774, #000000, #b3e774, #000000' -color-urgent '#000000, #b3e774, #000000, #b3e774, #000000'"
+bindsym $mod+space exec "rofi -modi window,drun,run -show drun -sidebar-mode -terminal termite -color-window '#000000, #000000, #000000' -color-normal '#000000, #b3e774, #000000, #b3e774, #000000' -color-active '#000000, #b3e774, #000000, #b3e774, #000000' -color-urgent '#000000, #b3e774, #000000, #b3e774, #000000'"
 #bindsym $mod+d exec --no-startup-id dmenu_recency
 #bindsym $mod+d      exec --no-startup-id i3-dmenu-desktop
 
@@ -150,7 +150,7 @@ bindsym $mod+ESC betterlockscreen -l blur
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+d focus mode_toggle
 
 # toggle sticky
 bindsym $mod+Shift+s sticky toggle
@@ -182,16 +182,16 @@ bindsym $mod+p exec killall polybar
 ###############################################################################
 
 # Workspace names
-set $ws1   "1:  JetBrains"
+set $ws1   "1:   JetBrains"
 set $ws2   "2:   Terminal"
-set $ws3   "3:  Firefox"
-set $ws4   "4:  Slack"
-set $ws5   "5:  Discord"
+set $ws3   "3:   Chrome"
+set $ws4   "4:   Slack"
+set $ws5   "5:   Discord"
 set $ws6   "6:"
 set $ws7   "7:"
 set $ws8   "8:"
 set $ws9   "9:"
-set $ws10  "10:  Spotify"
+set $ws10  "10:   Spotify"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
