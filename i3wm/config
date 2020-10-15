@@ -8,7 +8,7 @@ set $mod Mod4
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-new_window pixel 1
+new_window pixel 2
 new_float normal
 
 # Hide borders
@@ -16,12 +16,12 @@ hide_edge_borders none
 
 # change borders
 bindsym $mod+u border none
-bindsym $mod+y border pixel 0
+bindsym $mod+y border pixel 2
 bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font xft:Hack NF Regular 12
+font xft:Hack NF Regular 0
 
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
@@ -182,16 +182,16 @@ bindsym $mod+p exec killall polybar
 ###############################################################################
 
 # Workspace names
-set $ws1   "1:   JetBrains"
-set $ws2   "2:   Terminal"
-set $ws3   "3:   Chrome"
-set $ws4   "4:   Slack"
-set $ws5   "5:   Discord"
+set $ws1   "1: "
+set $ws2   "2: "
+set $ws3   "3: "
+set $ws4   "4: "
+set $ws5   "5: "
 set $ws6   "6:"
 set $ws7   "7:"
 set $ws8   "8:"
 set $ws9   "9:"
-set $ws10  "10:   Spotify"
+set $ws10  "10: "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -385,15 +385,11 @@ set_from_resource $term_color15    color15
 # hide/unhide i3status bar
 #bindsym $mod+m bar mode toggle
 
-# Theme colors
-# class                   border  backgr. text    indic.   child_border
-  client.focused          #556064 #556064 #80FFF9 #FDF6E3
-  client.focused_inactive #2F3D44 #2F3D44 #1ABC9C #454948
-  client.unfocused        #2F3D44 #2F3D44 #1ABC9C #454948
-  client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-  client.placeholder      #000000 #0c0c0c #ffffff #000000
+# class                 border  backgr. text    indicator
+client.focused          #268BD2 #268bd2 #fdf6e3 #2e9ef4
+client.focused_inactive #268bd2 #268bd2 #fdf6e3 #484e50
+client.unfocused        #333333 #93a1a1 #fdf6e3 #292d2e
 
-  client.background       #2B2C2B
 ###############################################################################
 
 ###############################################################################
@@ -401,8 +397,8 @@ set_from_resource $term_color15    color15
 ###############################################################################
 
 # Set inner/outer gaps
-gaps inner 10
-gaps outer 10
+gaps inner 5
+gaps outer 5
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
@@ -414,7 +410,6 @@ gaps outer 10
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders on
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
@@ -469,6 +464,8 @@ exec_always --no-startup-id ~/.spells/polybarlaunch.sh
 exec_always --no-startup-id ~/.local/bin/dynamicx
 
 exec_always --no-startup-id ~/.dotfiles/i3wm/monitor.sh
+
+exec_always xrandr --output HDMI-1 --off
 
 # Printscreen
 bindsym Print                      exec --no-startup-id flameshot gui

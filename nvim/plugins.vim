@@ -82,6 +82,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'rakr/vim-one'
 Plug 'kaicataldo/material.vim'
 Plug 'mhartington/oceanic-next'
+Plug 'tomasiser/vim-code-dark'
 
 """ Languages
 

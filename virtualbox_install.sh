@@ -6,7 +6,7 @@
 
 echo "Installing Virtualbox"
 
-yay -S virtualbox --needed --no-confirm
+yay -S virtualbox --needed --noconfirm
 
 echo "Installing Virtualbox Host and Guest modules"
 
