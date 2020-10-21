@@ -23,5 +23,9 @@ alias o=open
 
 alias bsc=backup
 alias pls=please
+alias docker="sudo docker"
 
 alias firefox=firefox-developer-edition
+
+# Sonarqube
+alias sonarqube="sh /usr/share/sonarqube/bin/linux-x86-64/sonar.sh console"

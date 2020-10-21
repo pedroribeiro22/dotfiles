@@ -1,6 +1,6 @@
 golang 1.11.5
 haskell 8.6.5
-java openjdk-13.0.1
+java openjdk-11
 julia 1.1.0
 nodejs 12.16.1
 python 3.8.6
