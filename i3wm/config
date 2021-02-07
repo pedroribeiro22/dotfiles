@@ -4,12 +4,11 @@
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
 
-default_border none
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-new_window none
+new_window pixel 2
 new_float normal
 
 # Hide borders
@@ -185,7 +184,7 @@ bindsym $mod+p exec killall polybar
 # Workspace names
 set $ws1   "1: "
 set $ws2   "2: "
-set $ws3   "3: "
+set $ws3   "3: "
 set $ws4   "4: "
 set $ws5   "5: "
 set $ws6   "6: "
@@ -387,9 +386,9 @@ set_from_resource $term_color15    color15
 #bindsym $mod+m bar mode toggle
 
 # class                 border  backgr. text    indicator
-# client.focused          #268BD2 #268bd2 #fdf6e3 #2e9ef4
-# client.focused_inactive #268bd2 #268bd2 #fdf6e3 #484e50
-# client.unfocused        #333333 #93a1a1 #fdf6e3 #292d2e
+client.focused          #268BD2 #268bd2 #fdf6e3 #2e9ef4
+client.focused_inactive #268bd2 #268bd2 #fdf6e3 #484e50
+client.unfocused        #333333 #93a1a1 #fdf6e3 #292d2e
 
 ###############################################################################
 
@@ -399,7 +398,7 @@ set_from_resource $term_color15    color15
 
 # Set inner/outer gaps
 gaps inner 5
-gaps outer 3
+gaps outer 5
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
