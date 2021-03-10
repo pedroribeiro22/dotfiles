@@ -1,6 +1,6 @@
 golang 1.15.8
 haskell 9.0.1
-java openjdk-16
+java openjdk-15
 julia nightly
 nodejs lts
 python 3.9.1
